@@ -1,0 +1,24 @@
+#intro {
+    background-image: url("../assets/img/background.jpg");
+    height: 100vh;
+  }
+
+  #intro .mask{
+    background-color: rgba(0, 0, 0, 0.9);
+    height: 100vh;
+  }
+
+  /* Height for devices larger than 576px */
+  @media (min-width: 992px) {
+    #intro {
+      margin-top: -58.59px;
+    }
+  }
+
+  .navbar .nav-link {
+    color: #fff !important;
+  }
+
+  .profile{
+    border-radius: 50%;
+  }
